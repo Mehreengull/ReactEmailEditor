@@ -1,8 +1,8 @@
-## Cypress Framework Documentation
+# Cypress Framework Documentation
 
 This repository contains an E2E testing framework for testing the React Email Editor application using Cypress. The framework is designed following the Page Object Model (POM) to enhance maintainability, scalability, and reusability of code.
 
-# Tools and libraries:
+## Tools and libraries:
 
 1. Cypress: For end-to-end testing.
 
@@ -10,7 +10,7 @@ This repository contains an E2E testing framework for testing the React Email Ed
 
 3. mochawesome: For generating test reports.
 
-# Approach
+## Approach
 
 * Page Object Model (POM):
     * Each page or component in the application is represented by a class.
@@ -26,7 +26,7 @@ This repository contains an E2E testing framework for testing the React Email Ed
 * Reporting:
     * Mochawesome is used to generate detailed HTML reports of the test execution.
 
-# Installation
+## Installation
 
 * Clone the repository:
     `git clone <repository-url>`
@@ -37,7 +37,7 @@ This repository contains an E2E testing framework for testing the React Email Ed
 * Install the dependencies:
     `npm install`
 
-# Running Tests
+## Running Tests
 
 * Open Cypress Test Runner:
     `npx cypress open`
@@ -55,17 +55,17 @@ This repository contains an E2E testing framework for testing the React Email Ed
 * Run tests in chrome browser with headed mode:
     `npx cypress run --browser chrome --headed`
 
-# Report Generation
+## Report Generation
 
 * Generate reports using Mochawesome:
     `npx cypress run --reporter mochawesome`
 
 * View report in your local browser
-    Find [reports] folder in the root directory
-    Find [html] file and click to reveal in finder
-    Open the file with any [browser] to view it
+    * Find [reports] folder in the root directory.
+    * Find [html] file and click to reveal in finder.
+    * Open the file with any [browser] to view it.
 
-# Key Points of Interest
+## Key Points of Interest
 
 1. Dynamic Element Handling:
     * The framework interacts with dynamic elements inside an iframe using custom locators and cy.iframe().
